@@ -4,8 +4,6 @@
 
 This repository contains a structured series of Haskell exercises developed over multiple weeks. Each module explores core functional programming concepts using Haskell, starting from basic functions to monads, IO, and type systems.
 
----
-
 ## Project Structure
 
 ### week-01-functions-and-patterns
@@ -29,8 +27,6 @@ Introduces error handling using `Maybe`, working with monads, basic IO, and comp
 ### week-07-type-systems-and-exercises
 Final tasks reinforcing Haskell’s type system through applied problems and type-specific functions.
 
----
-
 ## How to Use
 
 1. **Clone the repository:**
@@ -44,10 +40,10 @@ Final tasks reinforcing Haskell’s type system through applied problems and typ
    ghci filename.hs
    ```
 
-### Contributing
+## Contributing
 
 Contributions, improvements, or suggestions are welcomed. Fork the repository, make your changes, and submit a pull request.
 
-### License
+## License
 
 This project is licensed under the MIT License – see the LICENSE.md file for details.
