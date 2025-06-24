@@ -40,6 +40,18 @@ Final tasks reinforcing Haskell’s type system through applied problems and typ
    ghci filename.hs
    ```
 
+## Issues
+
+### VS Code says "Could not find module 'MaybeHalf'"
+
+This is a false positive caused by how the Haskell Language Server handles modules when no `.cabal` or `stack.yaml` project is defined. The code still works as long as all files are in the same directory.
+
+To test it, you can run:
+
+```bash
+ghci MaybeHalf.hs OneEighthDo.hs
+```
+
 ## Contributing
 
 Contributions, improvements, or suggestions are welcomed. Fork the repository, make your changes, and submit a pull request.
